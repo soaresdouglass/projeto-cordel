@@ -18,7 +18,7 @@
 }
 
 html,body {
-    background-color: darkgray;
+    background-color: white;
     min-height: 100vh;
     font-family: var(--font1);
 }
@@ -53,6 +53,7 @@ a:hover{
 }
 
 /*Conteúdo*/
+
 
 section{
     padding-top: 10vh;
@@ -95,16 +96,19 @@ section.imagem > p{
 
 section#img01{
     background-image: url('../imagens/background001.jpg');
-    background-position: right center;
+    background-position:  center center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     
 }
 
 section#img02{
     background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position:  bottom center;
 }
 
 /*Rodapé*/
